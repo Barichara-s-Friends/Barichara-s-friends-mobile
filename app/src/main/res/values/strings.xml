@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Amigos de Barichara Mobile®</string>
+    <string name="BARICHARA">BARICHARA</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="camino_real">CAMINO REAL</string>
+    <string name="boton_continue_main">CONTINUE</string>
+
+</resources>
