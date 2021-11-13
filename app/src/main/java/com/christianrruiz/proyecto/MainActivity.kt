@@ -20,15 +20,16 @@ class MainActivity : AppCompatActivity() {
 
         val boton1=findViewById<Button>(R.id.btn)
         boton1.setOnClickListener {
-            val intento1 = Intent(this, MainActivity3::class.java)
-            startActivity(intento1)
-        }
-
-        val boton1=findViewById<Button>(R.id.imageButton3)
-        boton1.setOnClickListener {
             val intento1 = Intent(this, MainActivity2::class.java)
             startActivity(intento1)
         }
+
+        val intento = Intent(this, MainActivity5::class.java)
+        startActivity(intento)
+
+
+
+
 
 
 
