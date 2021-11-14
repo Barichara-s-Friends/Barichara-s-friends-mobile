@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto">
         <activity
+            android:name=".MainActivity7"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity6"
             android:exported="false" />
         <activity

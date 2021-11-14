@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:backgroundTint="@color/cardview_shadow_start_color"
     android:backgroundTintMode="src_in"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity7">
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -37,7 +37,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/camino_real"
+        android:text="@string/BARICHARA"
         android:textAlignment="center"
         android:textColor="#090808"
         android:textSize="24sp"
@@ -62,11 +62,11 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="700dp">
+            android:layout_height="600dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="600dp"
+                android:layout_height="1000dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -79,17 +79,17 @@
                     android:background="@drawable/border_radius"
                     android:cropToPadding="true"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/camino_real_de_guanes" />
+                    app:srcCompat="@drawable/barichara_parque_principal_iglesia" />
 
                 <TextView
                     android:id="@+id/textViewCaminoRealDescripcionPg1"
                     android:layout_width="wrap_content"
-                    android:layout_height="550dp"
+                    android:layout_height="700dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="36dp"
                     android:layout_marginEnd="8dp"
                     android:justificationMode="inter_word"
-                    android:text="@string/camino_real_description_pg1"
+                    android:text="@string/barichara_descripcion_pantalla_1"
                     android:textAlignment="center"
                     android:textAllCaps="false"
                     android:textSize="20sp"
