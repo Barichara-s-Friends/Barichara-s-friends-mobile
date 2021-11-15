@@ -31,7 +31,7 @@
         app:srcCompat="@android:drawable/btn_dialog" />
 
     <TextView
-        android:id="@+id/camjno_real"
+        android:id="@+id/cementerio_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -82,7 +82,7 @@
                     app:srcCompat="@drawable/camino_real_de_guanes" />
 
                 <TextView
-                    android:id="@+id/textViewCaminoRealDescripcionPg1"
+                    android:id="@+id/cementerio_descripcion_text_view"
                     android:layout_width="wrap_content"
                     android:layout_height="550dp"
                     android:layout_gravity="center_vertical"
@@ -105,7 +105,7 @@
 
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/imageButton8"
         style="@style/Widget.AppCompat.ImageButton"
         android:layout_width="93dp"
         android:layout_height="40dp"
@@ -115,12 +115,12 @@
         android:background="@drawable/border_radius"
         android:clickable="true"
         android:theme="@style/Barichara"
-        android:tint="#9EFFFFFF"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/arrow_down_float" />
+        app:srcCompat="@android:drawable/arrow_down_float"
+        app:tint="#9EFFFFFF" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

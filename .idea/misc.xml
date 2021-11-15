@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ISAMANTHA/AndroidStudioProjects/Barichara-s-friends-mobile/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/ISAMANTHA/AndroidStudioProjects/Barichara-s-friends-mobile/app/src/main/res/layout/activity_main3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ISAMANTHA/AndroidStudioProjects/Barichara-s-friends-mobile/app/src/main/res/layout/activity_main4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ISAMANTHA/AndroidStudioProjects/Barichara-s-friends-mobile/app/src/main/res/layout/activity_main5.xml" value="0.18" />
+        <entry key="..\:/Users/ISAMANTHA/AndroidStudioProjects/Barichara-s-friends-mobile/app/src/main/res/layout/activity_main6.xml" value="0.1" />
+        <entry key="..\:/Users/ISAMANTHA/AndroidStudioProjects/Barichara-s-friends-mobile/app/src/main/res/layout/activity_main7.xml" value="0.22" />
+        <entry key="..\:/Users/ISAMANTHA/AndroidStudioProjects/Barichara-s-friends-mobile/app/src/main/res/layout/activity_main8.xml" value="0.30477759472817134" />
+        <entry key="..\:/Users/ISAMANTHA/AndroidStudioProjects/Barichara-s-friends-mobile/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/ISAMANTHA/AndroidStudioProjects/Barichara-s-friends-mobile/app/src/main/res/menu/menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

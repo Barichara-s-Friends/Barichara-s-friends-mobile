@@ -3,7 +3,6 @@ package com.christianrruiz.proyecto
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
 
 class MainActivity2 : AppCompatActivity() {
@@ -21,7 +20,7 @@ class MainActivity2 : AppCompatActivity() {
  //       boton6.setOnContextClickListener { val intent = Intent(this, MainActivity::class.java)
  //           startActivity(intent)}
 
-        val btn = findViewById<ImageButton>(R.id.imageButton6)
+        val btn = findViewById<ImageButton>(R.id.imageButton8)
         btn.setOnClickListener {
             val intent8 = Intent(this, MainActivity7::class.java)
             startActivity(intent8)
