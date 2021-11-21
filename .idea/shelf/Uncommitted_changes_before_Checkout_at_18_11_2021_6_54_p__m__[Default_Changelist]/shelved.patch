@@ -1,0 +1,267 @@
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1637278872509)
++++ b/.idea/compiler.xml	(date 1637278872509)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <bytecodeTargetLevel target="11" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+new file mode 100644
+--- /dev/null	(date 1637278872499)
++++ b/.idea/gradle.xml	(date 1637278872499)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
++  <component name="GradleSettings">
++    <option name="linkedExternalProjectsSettings">
++      <GradleProjectSettings>
++        <option name="testRunner" value="GRADLE" />
++        <option name="distributionType" value="DEFAULT_WRAPPED" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$" />
++            <option value="$PROJECT_DIR$/app" />
++          </set>
++        </option>
++        <option name="resolveModulePerSourceSet" value="false" />
++      </GradleProjectSettings>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/main/java/com/christianrruiz/proyecto/MainActivity7.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/christianrruiz/proyecto/MainActivity7.kt b/app/src/main/java/com/christianrruiz/proyecto/MainActivity7.kt
+new file mode 100644
+--- /dev/null	(date 1637279413596)
++++ b/app/src/main/java/com/christianrruiz/proyecto/MainActivity7.kt	(date 1637279413596)
+@@ -0,0 +1,11 @@
++package com.christianrruiz.proyecto
++
++import androidx.appcompat.app.AppCompatActivity
++import android.os.Bundle
++
++class MainActivity7 : AppCompatActivity() {
++    override fun onCreate(savedInstanceState: Bundle?) {
++        super.onCreate(savedInstanceState)
++        setContentView(R.layout.activity_main7)
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_main7.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_main7.xml b/app/src/main/res/layout/activity_main7.xml
+new file mode 100644
+--- /dev/null	(date 1637279413598)
++++ b/app/src/main/res/layout/activity_main7.xml	(date 1637279413598)
+@@ -0,0 +1,126 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:backgroundTint="@color/cardview_shadow_start_color"
++    android:backgroundTintMode="src_in"
++    tools:context=".MainActivity7">
++
++    <ImageButton
++        android:id="@+id/imageButton2"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="8dp"
++        android:layout_marginTop="16dp"
++        android:theme="@style/Barichara"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
++
++    <ImageButton
++        android:id="@+id/imageButton4"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="16dp"
++        android:layout_marginEnd="8dp"
++        android:theme="@style/Barichara"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:srcCompat="@android:drawable/btn_dialog" />
++
++    <TextView
++        android:id="@+id/camjno_real"
++        android:layout_width="0dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="8dp"
++        android:layout_marginTop="50dp"
++        android:layout_marginEnd="8dp"
++        android:text="@string/BARICHARA"
++        android:textAlignment="center"
++        android:textColor="#090808"
++        android:textSize="24sp"
++        android:theme="@style/Barichara"
++        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="1.0"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <LinearLayout
++        android:id="@+id/linearLayout"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:layout_marginStart="16dp"
++        android:layout_marginTop="150dp"
++        android:layout_marginEnd="16dp"
++        android:orientation="vertical"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent">
++
++        <ScrollView
++            android:layout_width="match_parent"
++            android:layout_height="600dp">
++
++            <LinearLayout
++                android:layout_width="wrap_content"
++                android:layout_height="1000dp"
++                android:gravity="center"
++                android:orientation="vertical">
++
++
++                <ImageView
++                    android:id="@+id/imageView5"
++                    android:layout_width="match_parent"
++                    android:layout_height="wrap_content"
++                    android:adjustViewBounds="true"
++                    android:background="@drawable/border_radius"
++                    android:cropToPadding="true"
++                    android:scaleType="centerCrop"
++                    app:srcCompat="@drawable/barichara_parque_principal_iglesia" />
++
++                <TextView
++                    android:id="@+id/textViewCaminoRealDescripcionPg1"
++                    android:layout_width="wrap_content"
++                    android:layout_height="700dp"
++                    android:layout_gravity="center_vertical"
++                    android:layout_marginTop="36dp"
++                    android:layout_marginEnd="8dp"
++                    android:justificationMode="inter_word"
++                    android:text="@string/barichara_descripcion_pantalla_1"
++                    android:textAlignment="center"
++                    android:textAllCaps="false"
++                    android:textSize="20sp"
++                    android:theme="@style/Barichara"
++                    app:layout_constraintEnd_toEndOf="parent"
++                    app:layout_constraintStart_toStartOf="parent"
++                    app:layout_constraintTop_toBottomOf="@+id/imageView4" />
++
++            </LinearLayout>
++        </ScrollView>
++
++    </LinearLayout>
++
++
++    <ImageButton
++        android:id="@+id/imageButton6"
++        style="@style/Widget.AppCompat.ImageButton"
++        android:layout_width="93dp"
++        android:layout_height="40dp"
++        android:layout_marginStart="8dp"
++        android:layout_marginEnd="8dp"
++        android:layout_marginBottom="30dp"
++        android:background="@drawable/border_radius"
++        android:clickable="true"
++        android:theme="@style/Barichara"
++        android:tint="#9EFFFFFF"
++        android:visibility="visible"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:srcCompat="@android:drawable/arrow_down_float" />
++
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1637278872505)
++++ b/.idea/vcs.xml	(date 1637278872505)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1637278872489)
++++ b/.idea/.gitignore	(date 1637278872489)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1637278872494)
++++ b/.idea/misc.xml	(date 1637278872494)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DesignSurface">
++    <option name="filePathToZoomLevelMap">
++      <map>
++        <entry key="..\:/Users/Yacar/Documents/MISION TIC 2020/Barichara-s-friends-mobile/app/src/main/res/drawable/splass.xml" value="0.1" />
++        <entry key="..\:/Users/Yacar/Documents/MISION TIC 2020/Barichara-s-friends-mobile/app/src/main/res/layout/activity_main.xml" value="0.1" />
++        <entry key="..\:/Users/Yacar/Documents/MISION TIC 2020/Barichara-s-friends-mobile/app/src/main/res/layout/activity_main2.xml" value="0.1" />
++        <entry key="..\:/Users/Yacar/Documents/MISION TIC 2020/Barichara-s-friends-mobile/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
++        <entry key="..\:/Users/Yacar/Documents/MISION TIC 2020/Barichara-s-friends-mobile/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
++        <entry key="..\:/Users/Yacar/Documents/MISION TIC 2020/Barichara-s-friends-mobile/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
++      </map>
++    </option>
++  </component>
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file

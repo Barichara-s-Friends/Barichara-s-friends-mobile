@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@color/cardview_shadow_start_color"
-    android:backgroundTintMode="src_in"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity8">
+
+
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -37,9 +37,9 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/camino_real"
+        android:text="@string/bioparque"
         android:textAlignment="center"
-        android:textColor="#090808"
+        android:textColor="#0D0D0B"
         android:textSize="24sp"
         android:theme="@style/Barichara"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
@@ -79,7 +79,7 @@
                     android:background="@drawable/border_radius"
                     android:cropToPadding="true"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/camino_real_de_guanes" />
+                    app:srcCompat="@drawable/bioparque_moncora_img1" />
 
                 <TextView
                     android:id="@+id/textViewCaminoRealDescripcionPg1"
@@ -89,7 +89,7 @@
                     android:layout_marginTop="36dp"
                     android:layout_marginEnd="8dp"
                     android:justificationMode="inter_word"
-                    android:text="@string/camino_real_description_pg1"
+                    android:text="@string/bioparque_description_pg1"
                     android:textAlignment="center"
                     android:textAllCaps="false"
                     android:textSize="20sp"
