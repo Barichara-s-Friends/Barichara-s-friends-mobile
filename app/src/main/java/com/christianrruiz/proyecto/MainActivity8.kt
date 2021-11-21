@@ -10,8 +10,11 @@ class MainActivity8 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main8)
 
-
-
+        val btn = findViewById<ImageButton>(R.id.cementerio_imageButton)
+        btn.setOnClickListener {
+            val intent = Intent(this, MainActivity9::class.java)
+            startActivity(intent)
+        }
     }
 
 
