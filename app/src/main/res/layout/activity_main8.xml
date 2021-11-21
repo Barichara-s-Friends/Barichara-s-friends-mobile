@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:backgroundTint="@color/cardview_shadow_start_color"
     android:backgroundTintMode="src_in"
-    tools:context=".MainActivity7">
+    tools:context=".MainActivity8">
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -31,13 +31,13 @@
         app:srcCompat="@android:drawable/btn_dialog" />
 
     <TextView
-        android:id="@+id/camino_real"
+        android:id="@+id/TextViewSitiosDeInteresTitulo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/BARICHARA"
+        android:text="@string/sitios_de_interes_titulo"
         android:textAlignment="center"
         android:textColor="#090808"
         android:textSize="24sp"
@@ -60,15 +60,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ScrollView
+        <HorizontalScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
-            android:layout_height="600dp">
+            android:layout_height="match_parent">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="1000dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
 
                 <ImageView
@@ -99,7 +100,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
             </LinearLayout>
-        </ScrollView>
+        </HorizontalScrollView>
 
     </LinearLayout>
 

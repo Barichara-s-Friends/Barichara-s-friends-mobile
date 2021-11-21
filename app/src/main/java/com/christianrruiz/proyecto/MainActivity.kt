@@ -18,13 +18,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
+
         val boton1=findViewById<Button>(R.id.btn)
         boton1.setOnClickListener {
             val intento1 = Intent(this, MainActivity2::class.java)
             startActivity(intento1)
         }
 
-        val intento = Intent(this, MainActivity2::class.java)
+        val intento = Intent(this, ListPoiActivity::class.java)
         startActivity(intento)
 
 
