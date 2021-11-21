@@ -10,8 +10,6 @@ import com.google.gson.Gson
 
 class ListPoiActivity : AppCompatActivity() {
 
-
-
     private lateinit var listPoi: ArrayList<SitiosItem>
     private lateinit var poiAdapter: PoiAdapter
     private lateinit var poiRecyclerView: RecyclerView
@@ -22,7 +20,7 @@ class ListPoiActivity : AppCompatActivity() {
 
         poiRecyclerView = findViewById(R.id.poi_recycler_view)
 
- //       listPois = createMockPoi()
+        //       listPois = createMockPoi()
         listPoi = loadMockPoiDesdeJson()
         poiAdapter = PoiAdapter(listPoi)
 
@@ -30,7 +28,6 @@ class ListPoiActivity : AppCompatActivity() {
             layoutManager = LinearLayoutManager(context)
             adapter = poiAdapter
             setHasFixedSize(false)
-
         }
     }
 
@@ -40,6 +37,5 @@ class ListPoiActivity : AppCompatActivity() {
         val poiList = gson.fromJson(poiString, Sitios::class.java)
         return poiList
     }
-
 
 }

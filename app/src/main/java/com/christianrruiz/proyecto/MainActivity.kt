@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intento1)
         }
 
-        val intento = Intent(this, ListPoiActivity::class.java)
+        val intento = Intent(this, MainActivity2::class.java)
         startActivity(intento)
 
 
