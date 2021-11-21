@@ -22,16 +22,10 @@ class MainActivity : AppCompatActivity() {
         boton1.setOnClickListener {
             val intento1 = Intent(this, MainActivity2::class.java)
             startActivity(intento1)
-
-
         }
 
         val intento = Intent(this, MainActivity2::class.java)
         startActivity(intento)
-
-
-
-
 
 
 
