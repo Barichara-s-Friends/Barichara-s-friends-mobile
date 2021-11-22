@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">login</string>
+    <string name="sing_up">sing_up</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="nombre">nombre</string>
+    <string name="password">Password</string>
+    <string name="phone">phone</string>
+    <string name="date">date</string>
+    <string name="foto_salto_del_mico">foto_salto_del_mico</string>
+    <string name="salto_del_mico">salto_del_mico</string>
+    <string name="start">Start</string>
+    <string name="share">Share</string>
+    <string name="chat">Chat</string>
+    <string name="texto_mico">Este mirador natural est compuesto por un  conjunto de rocas que le permiten a los turistas tener una mirada nica de los hermosos paisajes igualmente es el lugar ideal para una buena foto cargada de adrenalina ademas desde el salto del mico podras apreciar el canon del rio suarez  y los municipios de zapatoca y galan</string>
+</resources>

@@ -10,6 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto">
         <activity
+            android:name=".MainActivity13"
+            android:exported="true" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".MainActivity12"
+            android:exported="true" />
+        <activity
+            android:name=".IngresoMain11Activity"
+            android:exported="true" />
+        <activity
+            android:name=".InicioMain10Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity9"
             android:exported="false" />
         <activity
