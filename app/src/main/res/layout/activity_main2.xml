@@ -105,7 +105,7 @@
 
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/imageButton6"
         style="@style/Widget.AppCompat.ImageButton"
         android:layout_width="93dp"
         android:layout_height="40dp"
@@ -115,12 +115,12 @@
         android:background="@drawable/border_radius"
         android:clickable="true"
         android:theme="@style/Barichara"
+        android:tint="#9EFFFFFF"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/arrow_down_float"
-        app:tint="#9EFFFFFF" />
+        app:srcCompat="@android:drawable/arrow_down_float" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
