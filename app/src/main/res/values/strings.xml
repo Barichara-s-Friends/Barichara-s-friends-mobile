@@ -16,10 +16,11 @@ El gentilicio es Baricharas o patiamarillos, de este último no he descubierto e
     <string name="camino_real_descripcion_pg_3_2">El Camino Real no dejó de ser una pavimentación de los caminos milenarios de las comunidades chibchas, muiscas y guanes. En tiempos coloniales, la ruta imprimió un fuerte desarrollo económico a la región, ya que se comerciaba con tejidos, harina, maíz y sal por esta ruta hacia el occidente del país.
 
 El camino se hizo con losas de piedra plana muy abundante en la región, y comienza en la zona alta de Barichara al lado del monumento a Bolivar, desde donde baja, cruza la carretera nueva a Guana, sube la montaña y desde la cumbre se puede ver el río y el pueblito Guane, para luego descender en zigzag.</string>
-    <string name="cementerio">Cementerio La Inmaculada Concepción</string>
-    <string name="cementerio_descripcion">El cementerio de Barichara es un museo al aire libre. Sobre un espacio natural de árboles, flores y prados, se refleja el arte, la historia y la tradición de los patiamarillos. A la entrada la réplica de ‘La última cena’, de Antonio Gaudí, elaborada por el escultor Arsenio Plata tallada en piedra. La variedad de tumbas muestran obras esculturales en piedra labrada, lapidas con tallas de figuras que recuerdan la labor que ejerció la persona en vida. Se exhiben en los muros del cementerio, antiguas cruces con diseños únicos en Forja.  Y  en la pared de tapia pisada de la casa, se conservan algunas lapidas muy antiguas y delicadas impresas en vidrio.</string>
-    <string name="parque_artes_title">Parque de las artes Jorge Delgado Sierra</string>
-    <string name="parque_artes_descripcion">El parque de las artes Jorge Delgado Sierra es un gran sitio el cual se encuentra justo al lado de la icónica Capilla de Santa Bárbara y comprende un museo al aire libre donde los visitantes pueden apreciar más de 20 esculturas talladas en piedra por artistas tanto locales como internacionales. El lugar hace homenaje al oficio del tallador en piedra, que ha proliferado en la región por generaciones y que se conserva hoy en día como una tradición y herencia artesana. Desde allí también se puede apreciar el Cañón del río Suárez y las montañas que lo acompañan.</string>
+    <string name="sitios_de_interes_titulo">SITIOS DE INTERÉS</string>
+    <string name="camino_real_descripcion_corta">Conectaba las rutas de Santafé de Bogotá, Tunja, Bucaramanga, Pamplona y Cúcuta, con bifurcaciones que conducían hacia Cartagena y Venezuela.</string>
+    <string name="salto_del_mico_titulo">SALTO DEL MICO</string>
+    <string name="salto_del_mico_descripcion_corta">No puede faltar la icónica fotografía en El Salto del Mico que es uno de los miradores de Barichara, donde se observa el Cañón del río Suárez.</string>
+    <string name="sitios_de_interes">SITIOS DE INTERES</string>
 
 
 </resources>
