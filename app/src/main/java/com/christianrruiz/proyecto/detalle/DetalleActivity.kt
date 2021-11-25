@@ -1,15 +1,40 @@
-package com.christianrruiz.proyecto
+package com.christianrruiz.proyecto.detalle
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
+import com.christianrruiz.proyecto.MainActivity
+import com.christianrruiz.proyecto.MainActivity3
+import com.christianrruiz.proyecto.MainActivity7
+import com.christianrruiz.proyecto.R
+import com.christianrruiz.proyecto.databinding.ActivityDetalleBinding
+import com.christianrruiz.proyecto.modelo.PoiItem
+import com.squareup.picasso.Picasso
+import java.io.Serializable
 
-class MainActivity2 : AppCompatActivity() {
+class DetalleActivity : AppCompatActivity() {
+
+    private lateinit var detalleBinding: ActivityDetalleBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        detalleBinding = ActivityDetalleBinding.inflate(layoutInflater)
+        setContentView(detalleBinding.root)
+
+        val poi: PoiItem? = intent.extras?.getSerializable("poi") as PoiItem
+        if (poi != null) {
+            with(detalleBinding) {
+                nombreTextView.text = poi.nombre
+                descripcionTextView.text = poi.descripcion
+                Picasso.get().load(poi.urlFoto).into(pictImageView)
+                calificacionTextView.text = poi.calificacion.toString()
+
+            }
+
+        }
+//        detalleBinding.nombreTextView.text = nombre
+
 
 //        val boton30=findViewById<ImageButton>(R.id.imageButton3)
 //        boton30.setOnClickListener {
@@ -21,7 +46,7 @@ class MainActivity2 : AppCompatActivity() {
  //       boton6.setOnContextClickListener { val intent = Intent(this, MainActivity::class.java)
  //           startActivity(intent)}
 
-        val btn = findViewById<ImageButton>(R.id.imageButton6)
+/*        val btn = findViewById<ImageButton>(R.id.imageButton6)
         btn.setOnClickListener {
             val intent8 = Intent(this, MainActivity7::class.java)
             startActivity(intent8)
@@ -38,7 +63,7 @@ class MainActivity2 : AppCompatActivity() {
             val intent3 = Intent(this, MainActivity::class.java)
             startActivity(intent3)
         }
-
+*/
 
 
     }

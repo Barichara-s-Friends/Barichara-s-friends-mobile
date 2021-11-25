@@ -1,15 +1,16 @@
-package com.christianrruiz.proyecto
+package com.christianrruiz.proyecto.modelo
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
-data class SitiosItem(
+data class PoiItem(
     @SerializedName("calificacion")
-    val calificacion: String,
+    val calificacion: Double,
     @SerializedName("descripcion")
     val descripcion: String,
     @SerializedName("nombre")
     val nombre: String,
     @SerializedName("urlFoto")
     val urlFoto: String
-)
+) : Serializable

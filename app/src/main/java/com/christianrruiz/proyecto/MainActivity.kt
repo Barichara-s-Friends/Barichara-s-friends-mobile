@@ -4,8 +4,12 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.christianrruiz.proyecto.detalle.DetalleActivity
 
 class MainActivity : AppCompatActivity() {
+
+
+
 
 
 
@@ -16,18 +20,20 @@ class MainActivity : AppCompatActivity() {
         setTheme(R.style.Theme_Proyecto)
 
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
+
 
 
 
 
         val boton1=findViewById<Button>(R.id.btn)
         boton1.setOnClickListener {
-            val intento1 = Intent(this, MainActivity2::class.java)
+            val intento1 = Intent(this, DetalleActivity::class.java)
             startActivity(intento1)
         }
 
-        val intento = Intent(this, MainActivity2::class.java)
+        val intento = Intent(this, DetalleActivity::class.java)
         startActivity(intento)
 
 

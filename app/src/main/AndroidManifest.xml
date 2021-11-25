@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto">
         <activity
-            android:name=".ListPoiActivity"
+            android:name=".lista.ListPoiActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,8 +35,8 @@
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+            android:name=".detalle.DetalleActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"></activity>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/primero"
     android:backgroundTint="@color/ic_launcher_background"
-    tools:context=".ListPoiActivity">
+    tools:context=".lista.ListPoiActivity">
 
 
 
@@ -33,7 +33,7 @@
             app:srcCompat="@android:drawable/btn_dialog" />
 
     <TextView
-        android:id="@+id/camino_real"
+        android:id="@+id/nombre_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -61,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/camino_real"
+        app:layout_constraintTop_toBottomOf="@+id/nombre_text_view"
         app:layout_constraintVertical_bias="0.0"
         tools:listitem="@layout/card_view_poi_item" />
 

@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:backgroundTint="@color/cardview_shadow_start_color"
     android:backgroundTintMode="src_in"
-    tools:context=".MainActivity2">
+    tools:context=".detalle.DetalleActivity">
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -31,7 +31,7 @@
         app:srcCompat="@android:drawable/btn_dialog" />
 
     <TextView
-        android:id="@+id/camino_real"
+        android:id="@+id/nombre_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -62,7 +62,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="700dp">
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
 
 
                 <ImageView
-                    android:id="@+id/imageView5"
+                    android:id="@+id/pict_image_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
@@ -82,7 +82,7 @@
                     app:srcCompat="@drawable/camino_real_de_guanes" />
 
                 <TextView
-                    android:id="@+id/textViewCaminoRealDescripcionPg1"
+                    android:id="@+id/descripcion_text_view"
                     android:layout_width="wrap_content"
                     android:layout_height="550dp"
                     android:layout_gravity="center_vertical"
@@ -121,6 +121,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <TextView
+        android:id="@+id/calificacion_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/calificacion_textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nombre_text_view" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,6 +21,7 @@ El camino se hizo con losas de piedra plana muy abundante en la región, y comie
     <string name="salto_del_mico_titulo">SALTO DEL MICO</string>
     <string name="salto_del_mico_descripcion_corta">No puede faltar la icónica fotografía en El Salto del Mico que es uno de los miradores de Barichara, donde se observa el Cañón del río Suárez.</string>
     <string name="sitios_de_interes">SITIOS DE INTERES</string>
+    <string name="calificacion_textview">5.0</string>
 
 
 </resources>
