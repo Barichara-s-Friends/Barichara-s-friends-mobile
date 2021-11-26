@@ -2,31 +2,31 @@
   {
     "nombre" : "Camino Real",
     "descripcion" : "Conectaba las rutas de Santafé de Bogotá, Tunja, Bucaramanga, Pamplona y Cúcuta, con bifurcaciones que conducían hacia Cartagena y Venezuela.",
-    "calificacion" : "5  ",
+    "calificacion" : "5",
     "urlFoto" : "https://www.treksnappy.com/wp-content/uploads/2014/03/Camino-Real-17-1024x768.jpg"
   },
   {
     "nombre" : "              Cementerio\nLa Inmaculada Concepcion",
     "descripcion" : " El cementerio de Barichara es un museo al aire libre.  Sobre un espacio natural de árboles, flores y prados,  se refleja  el  arte, la historia.",
-    "calificacion" : "4  ",
+    "calificacion" : "4",
     "urlFoto" : "https://static.wixstatic.com/media/70bdc8_452674fe9f0d4cc4b29aba6f9d81b466~mv2.jpg"
   },
   {
     "nombre" : "Bioparque Móncora",
     "descripcion" : "La mejor vista de Barichara al lado del Cañón del Suárez, se disfruta desde la parte alta del Bioparque Móncora. Siete hectáreas de tierra.",
-    "calificacion" : "3  ",
+    "calificacion" : "3",
     "urlFoto" : "https://static.wixstatic.com/media/70bdc8_a01b44c9e5254215848fc32abe6646ef~mv2.jpg"
   },
   {
     "nombre" : "Parque Para las Artes",
     "descripcion" : "El Parque de las Artes Jorge Delgado Sierra es una de las construcciones recientes más valoradas del municipio. Levantado en 1988.",
-    "calificacion" : "2  ",
+    "calificacion" : "2",
     "urlFoto" : "https://as1.ftcdn.net/v2/jpg/01/92/23/60/500_F_192236070_uLWhD3p18wvxYuWC0Lz51iwIKLZWK8Q4.jpg"
   },
   {
     "nombre" : "Salto del Mico",
     "descripcion" : "No puede faltar la icónica fotografía en El Salto del Mico que es uno de los miradores de Barichara, donde se observa el Cañón del río Suárez.",
-    "calificacion" : "2  ",
+    "calificacion" : "2",
     "urlFoto" : "https://imagenes.weekendcolombia.co/968610b3c97a217497838774445-212694115_506797590373920_1129965026786107015_n.jpg"
   }
 ]
