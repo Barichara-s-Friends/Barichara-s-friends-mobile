@@ -30,6 +30,7 @@ class ListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         listPoi = loadMockPoiDesdeJson()
         poiAdapter = PoiAdapter(listPoi, onItemClicked = {onPoiClicked(it) })
+
         listBinding.poiRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = poiAdapter

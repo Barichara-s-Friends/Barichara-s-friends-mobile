@@ -17,5 +17,10 @@
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.christianrruiz.barichara.detail.DetailFragment"
-        android:label="DetailFragment" />
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="poi"
+            app:argType="com.christianrruiz.barichara.model.PoiItem" />
+    </fragment>
 </navigation>
