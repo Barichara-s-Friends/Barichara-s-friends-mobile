@@ -35,6 +35,8 @@ class ListPoiActivity : AppCompatActivity() {
         }
     }
 
+
+
     private fun onPoiClicked(poi: PoiItem) {
         Log.d("nombre", poi.nombre)
         val intent = Intent(this, DetalleActivity::class.java)
