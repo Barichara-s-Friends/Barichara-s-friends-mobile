@@ -1,12 +1,11 @@
 package com.christianrruiz.barichara.list
 
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.christianrruiz.barichara.databinding.FragmentListBinding
 import com.christianrruiz.barichara.model.PoiItem
 import com.christianrruiz.barichara.model.Sitios
@@ -15,7 +14,7 @@ import com.google.gson.Gson
 class ListFragment : Fragment() {
 
     private lateinit var listBinding: FragmentListBinding
-    private lateinit var poi: PoiAdapter
+    private lateinit var poiAdapter: PoiAdapter
     private lateinit var listPoi: ArrayList<PoiItem>
 
     override fun onCreateView(
@@ -30,7 +29,12 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         listPoi = loadMockPoiDesdeJson()
-        poi = PoiAdapter(listPoi, onItemClicked = {onPoiClicked(it) })
+        poiAdapter = PoiAdapter(listPoi, onItemClicked = {onPoiClicked(it) })
+        listBinding.poiRecyclerView.apply {
+            layoutManager = LinearLayoutManager(context)
+            adapter = poiAdapter
+            setHasFixedSize(false)
+        }
 
     }
 
