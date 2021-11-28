@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/listaFragment">
+
+    <fragment
+        android:id="@+id/listaFragment"
+        android:name="com.christianrruiz.baricharafriendsmobile.list.ListaFragment"
+        android:label="fragment_lista"
+        tools:layout="@layout/fragment_lista" >
+        <action
+            android:id="@+id/action_listaFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_listaFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.christianrruiz.baricharafriendsmobile.detail.DetailFragment"
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detalle">
+        <argument
+            android:name="@string/title_preferencias"
+            app:argType="com.christianrruiz.baricharafriendsmobile.modelo.PoiItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.christianrruiz.baricharafriendsmobile.preference.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>

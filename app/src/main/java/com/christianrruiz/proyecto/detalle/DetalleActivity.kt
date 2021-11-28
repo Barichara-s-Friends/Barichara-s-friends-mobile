@@ -1,30 +1,24 @@
 package com.christianrruiz.proyecto.detalle
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageButton
-import com.christianrruiz.proyecto.MainActivity
-import com.christianrruiz.proyecto.MainActivity3
-import com.christianrruiz.proyecto.MainActivity7
-import com.christianrruiz.proyecto.R
+import androidx.appcompat.app.AppCompatActivity
 import com.christianrruiz.proyecto.databinding.ActivityDetalleBinding
 import com.christianrruiz.proyecto.modelo.PoiItem
 import com.squareup.picasso.Picasso
-import java.io.Serializable
 
 class DetalleActivity : AppCompatActivity() {
 
-    private lateinit var detalleBinding: ActivityDetalleBinding
+
+    private lateinit var detailBinding: ActivityDetalleBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        detalleBinding = ActivityDetalleBinding.inflate(layoutInflater)
-        setContentView(detalleBinding.root)
+        detailBinding = ActivityDetalleBinding.inflate(layoutInflater)
+        setContentView(detailBinding.root)
 
         val poi: PoiItem? = intent.extras?.getSerializable("poi") as PoiItem
         if (poi != null) {
-            with(detalleBinding) {
+            with(detailBinding) {
                 nombreTextView.text = poi.nombre
                 descripcionTextView.text = poi.descripcion
                 Picasso.get().load(poi.urlFoto).into(pictImageView)

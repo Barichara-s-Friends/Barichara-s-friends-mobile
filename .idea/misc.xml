@@ -7,6 +7,7 @@
         <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/app/src/main/res/drawable/border_radius.xml" value="0.12777777777777777" />
         <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/app/src/main/res/drawable/splass.xml" value="0.1" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/app/src/main/res/layout/activity_detalle.xml" value="0.14743589743589744" />
         <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/app/src/main/res/layout/activity_list_poi.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/app/src/main/res/layout/activity_list_poi2.xml" value="0.14743589743589744" />
         <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
@@ -26,8 +27,37 @@
         <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/app/src/main/res/menu/menu.xml" value="0.22" />
         <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/barichara/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15864978902953586" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/barichara/src/main/res/drawable/ic_launcher_background.xml" value="0.15864978902953586" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/barichara/src/main/res/layout/activity_main.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/barichara/src/main/res/layout/card_view_poi_item.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/barichara/src/main/res/layout/fragment_detail.xml" value="0.1358974358974359" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/barichara/src/main/res/layout/fragment_list.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.10512820512820513" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/drawable/ic_launcher_background.xml" value="0.10512820512820513" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/drawable/ic_notifications.xml" value="0.1" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/drawable/splass.xml" value="0.10512820512820513" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/activity_bottom.xml" value="0.1" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/activity_drawer.xml" value="0.33014354066985646" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/activity_main.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/card_view_poi_item.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/content_drawer.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/fragment_dashboard.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/fragment_detalle.xml" value="0.22" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/fragment_gallery.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/fragment_home.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/fragment_list.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/fragment_lista.xml" value="0.22" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/fragment_notifications.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/fragment_slideshow.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/layout/nav_header_drawer.xml" value="0.3610271903323263" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/menu/bottom_nav_menu.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/proyecto/baricharafriendsmobile/src/main/res/xml/root_preferences.xml" value="0.14743589743589744" />
       </map>
     </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://schemas.android.com/apk/res/android" location="$PROJECT_DIR$" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

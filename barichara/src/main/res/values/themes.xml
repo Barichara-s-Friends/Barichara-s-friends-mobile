@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Proyecto" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primero</item>
+        <item name="colorPrimaryVariant">@color/segundo</item>
+        <item name="colorOnPrimary">@color/tercero</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/tercero</item>
+        <item name="colorSecondaryVariant">@color/segundo</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.Proyecto">
+        <item name="android:windowBackground">@drawable/splass</item>
+    </style>
+
+    <style name="Barichara" parent="Theme.Proyecto">
+        <item name="colorPrimary">@color/primero</item>
+        <item name="colorPrimary">@color/segundo</item>
+        <item name="colorPrimary">@color/tercero</item>
+    </style>
+
+    <style name="Texto_titulo">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">@color/primero</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Texto_normal">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Texto_subtitulo">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/segundo</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Proyecto.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Proyecto.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Proyecto.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primero"
+    android:backgroundTint="@color/ic_launcher_background"
+    android:backgroundTintMode="add">
+
+
+    <PreferenceCategory app:title="@string/notificaciones">
+
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notificaciones"
+            android:title="@string/notificaciones"
+            android:icon="@drawable/ic_notifications"/>
+        <CheckBoxPreference
+            app:dependency="notificaciones"
+            android:defaultValue="false"
+            android:key="sonido_notificaciones"
+            android:title="Activar sonido de notificaciones"
+            android:icon="@drawable/ic_sonido_notificacion"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

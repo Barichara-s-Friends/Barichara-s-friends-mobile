@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_lista"
+        android:icon="@drawable/icono_piedra"
+        android:title="@string/title_lista" />
+
+    <item
+        android:id="@+id/navigation_preferencias"
+        android:icon="@drawable/icono_veleta"
+        android:title="@string/title_preferencias" />
+
+</menu>
