@@ -7,7 +7,7 @@
     android:background="@drawable/inicio_2"
     android:focusable="auto"
     android:focusableInTouchMode="true"
-    tools:context=".IngresoMain11Activity">
+    tools:context=".model.IngresoMain11Activity">
 
     <TextView
         android:id="@+id/text_home"

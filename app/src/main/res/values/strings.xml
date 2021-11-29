@@ -51,6 +51,13 @@ El camino se hizo con losas de piedra plana muy abundante en la región, y comie
     <string name="share">Share</string>
     <string name="chat">Chat</string>
     <string name="texto_mico">Este mirador natural est compuesto por un  conjunto de rocas que le permiten a los turistas tener una mirada nica de los hermosos paisajes igualmente es el lugar ideal para una buena foto cargada de adrenalina ademas desde el salto del mico podras apreciar el canon del rio suarez  y los municipios de zapatoca y galan</string>
+    <string name="registro_sitios">Registro de un Sitio Turistico</string>
+    <string name="name">Nombres</string>
+    <string name="genero_femenino">Femenino</string>
+    <string name="genero_masculino">Masculino</string>
+    <string name="cascada">Cascada Juan Curi</string>
+    <string name="cascadas_descripcion">Cascada de 200 mt de altura, que desciende por una parede rocosa, que parece formar una escalera, incrustadas en una selva virgen.</string>
+    <string name="puntuacion">8.0</string>
 
 
 </resources>

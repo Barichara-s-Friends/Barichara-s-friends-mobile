@@ -15,4 +15,9 @@
     <string name="share">Share</string>
     <string name="chat">Chat</string>
     <string name="texto_mico">Este mirador natural est compuesto por un  conjunto de rocas que le permiten a los turistas tener una mirada nica de los hermosos paisajes igualmente es el lugar ideal para una buena foto cargada de adrenalina ademas desde el salto del mico podras apreciar el canon del rio suarez  y los municipios de zapatoca y galan</string>
+    <string name="registro_sitios">Registro de un Sitio Turistico</string>
+    <string name="name">Nombres</string>
+    <string name="genero_femenino">Femenino</string>
+    <string name="genero_masculino">Masculino</string>
+    <string name="cascada">"Cascada Juan Curi "</string>
 </resources>

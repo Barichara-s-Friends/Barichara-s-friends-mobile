@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:backgroundTint="@color/cardview_shadow_start_color"
     android:backgroundTintMode="src_in"
-    tools:context=".MainActivity2">
+    tools:context=".model.MainActivity2">
 
     <ImageButton
         android:id="@+id/imageButton2"

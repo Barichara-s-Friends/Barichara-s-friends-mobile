@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "proyecto"
 include ':app'
+include ':app:app_barichara_fragments'

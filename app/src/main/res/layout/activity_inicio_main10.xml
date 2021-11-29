@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/inicio_barichara"
-        tools:context=".InicioMain10Activity">
+        tools:context=".model.InicioMain10Activity">
 
     <ProgressBar
         android:id="@+id/progressBar"
