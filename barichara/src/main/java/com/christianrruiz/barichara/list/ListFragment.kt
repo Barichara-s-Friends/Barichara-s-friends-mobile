@@ -41,7 +41,6 @@ class ListFragment : Fragment() {
     }
 
     private fun onPoiClicked(poi: PoiItem) {
-
         findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(poi = poi))
     }
 

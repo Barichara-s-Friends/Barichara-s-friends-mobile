@@ -56,5 +56,6 @@ El camino se hizo con losas de piedra plana muy abundante en la región, y comie
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="notifications">Notificaciones</string>
 
 </resources>
