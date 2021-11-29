@@ -54,6 +54,7 @@
                 android:layout_marginTop="16dp"
                 android:justificationMode="inter_word"
                 android:text="@string/camino_real"
+                android:textAlignment="center"
                 android:textColor="@color/primero"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"

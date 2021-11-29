@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.christianrruiz.barichara.databinding.FragmentListBinding
 import com.christianrruiz.barichara.model.PoiItem
@@ -40,7 +41,8 @@ class ListFragment : Fragment() {
     }
 
     private fun onPoiClicked(poi: PoiItem) {
-        //TODO
+
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(poi = poi))
     }
 
 
